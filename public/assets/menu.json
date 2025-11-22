@@ -1,0 +1,512 @@
+{
+  "meta": {
+    "version": 1,
+    "currency": "EUR",
+    "source": "Speisekarte.txt"
+  },
+  "categories": [
+    {
+      "id": "pizza_klassisch",
+      "label": "Pizzen klassisch",
+      "items": [
+        {
+          "code": 1,
+          "name": "Margherita",
+          "description": "Tomatensoße, Käse",
+          "prices": ["11,50 €"]
+        },
+        {
+          "code": 2,
+          "name": "Tomaten",
+          "description": "Tomatensoße, Käse, Tomatenscheiben",
+          "prices": ["11,50 €"]
+        },
+        {
+          "code": 3,
+          "name": "Schinken",
+          "description": "Tomatensoße, Käse, Hinterschinken",
+          "prices": ["11,50 €"]
+        },
+        {
+          "code": 4,
+          "name": "Salami",
+          "description": "Tomatensoße, Käse, Salami",
+          "prices": ["11,50 €"]
+        },
+        {
+          "code": 5,
+          "name": "Salami-Schinken",
+          "description": "Tomatensoße, Käse, Salami, Hinterschinken",
+          "prices": ["11,50 €"]
+        },
+        {
+          "code": 6,
+          "name": "Spinat (vegetarisch)",
+          "description": "Tomatensoße, Käse, Spinat, Knoblauch",
+          "prices": ["11,50 €"]
+        }
+      ]
+    },
+    {
+      "id": "pizza_spezial",
+      "label": "Pizzen Spezial",
+      "items": [
+        {
+          "code": 7,
+          "name": "Capri",
+          "description": "Tomatensoße, Käse, Salami, Hinterschinken, Champignons",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 8,
+          "name": "Mista",
+          "description": "Tomatensoße, Käse, Salami, Hinterschinken, Champignons, Peperoni",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 9,
+          "name": "Special",
+          "description": "Tomatensoße, Käse, Salami, Hinterschinken, Champignons, Peperoni, Paprika",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 10,
+          "name": "Venezia",
+          "description": "Tomatensoße, Käse, Hinterschinken, Champignons, Artischocken",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 11,
+          "name": "Vier Jahreszeiten",
+          "description": "Tomatensoße, Käse, je 1/4 mit Salami, Hinterschinken, Champignons, Peperoni",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 12,
+          "name": "Quattro Formaggi (vegetarisch)",
+          "description": "Tomatensoße, Edamer, Mozzarella, Gorgonzola, Parmesan",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 13,
+          "name": "Calzone (geschlossen)",
+          "description": "Tomatensoße, Käse, Salami, Hinterschinken, Champignons, Peperoni",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 14,
+          "name": "Hawaii",
+          "description": "Tomatensoße, Käse, Hinterschinken, Ananas",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 15,
+          "name": "Roma",
+          "description": "Tomatensoße, Käse, Salami, Hinterschinken, Champignons, Zwiebeln",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 16,
+          "name": "Vatikano",
+          "description": "Tomatensoße, Käse, Salami, Hinterschinken, Peperoni, Zwiebeln",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 17,
+          "name": "Texas",
+          "description": "Tomatensoße, Käse, Mais, scharfe Salami, Zwiebeln, Jalapeños, Bohnen",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 18,
+          "name": "Schweiz",
+          "description": "Tomatensoße, Käse, Salami, Hinterschinken, Paprika-Mix",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 19,
+          "name": "Thunfisch",
+          "description": "Tomatensoße, Käse, Thunfisch, Zwiebeln",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 20,
+          "name": "Mare",
+          "description": "Tomatensoße, Käse, Thunfisch, Meeresfrüchte, Zwiebeln",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 21,
+          "name": "Grüner Garten (vegetarisch)",
+          "description": "Tomatensoße, Käse, Champignons, Brokkoli, Paprika, Artischocken, Sauce Hollandaise",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 22,
+          "name": "Rucola-Parma",
+          "description": "Tomatensoße, Edamer, Mozzarella, Tomaten, Rucola, Parmaschinken, Parmesan",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 23,
+          "name": "Diavolo (scharf!)",
+          "description": "Tomatensoße, Käse, Hinterschinken, scharfe Salami, Zwiebeln",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 24,
+          "name": "Spargel",
+          "description": "Tomatensoße, Käse, Hinterschinken, Spargel, Sauce Hollandaise",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 25,
+          "name": "Nach Art des Hauses",
+          "description": "Tomatensoße, Käse, Salami, Hinterschinken, Thunfisch, Sauce Hollandaise",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 26,
+          "name": "Konoba",
+          "description": "Tomatensoße, Käse, Feta, Oliven, Parmaschinken, Zucchini, rote Zwiebeln",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 27,
+          "name": "Mailand",
+          "description": "Tomatensoße, Mozzarella, Edamer, Mailänder Salami, Paprika",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 28,
+          "name": "à la Chef",
+          "description": "Tomatensoße, Käse, Salami, Hinterschinken, Champignons, Thunfisch",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 29,
+          "name": "Hähnchenbrust",
+          "description": "Tomatensoße, Käse, Hähnchenbruststreifen, Ananas, Asia-Soße",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 30,
+          "name": "Big Cheese",
+          "description": "Tomatensoße, dreifach Käse, Salami, Hinterschinken, Peperoni",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 31,
+          "name": "Schinken-Mozzarella",
+          "description": "Tomatensoße, Mozzarella, Edamer, Hinterschinken, Champignons",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 32,
+          "name": "Salami Deluxe",
+          "description": "Tomatensoße, Käse, scharfe Salami, Hinterschinken, Champignons, Peperoni, Paprika, Zwiebeln",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 34,
+          "name": "San Diego (scharf!)",
+          "description": "Tomatensoße, Käse, scharfe Salami, Peperoni, Zwiebeln",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 35,
+          "name": "Franken",
+          "description": "Tomatensoße, Käse, Bacon, Zwiebeln, Schmand, Petersilie",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 36,
+          "name": "Capricciosa",
+          "description": "Tomatensoße, Käse, Hinterschinken, Champignons, Oliven, gekochtes Ei",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 37,
+          "name": "Kulmbach",
+          "description": "Tomatensoße, Käse, scharfe Salami, Mailänder Salami, Mozzarella",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 38,
+          "name": "Döner",
+          "description": "Tomatensoße, Käse, Dönerfleisch, Peperoni, Zwiebeln, Tsatsiki",
+          "prices": ["13,50 €"]
+        },
+        {
+          "code": 39,
+          "name": "Antje",
+          "description": "Sauce Hollandaise, Käse, Hinterschinken, gekochtes Ei, Brokkoli, Hähnchenbrust, Ananas",
+          "prices": ["13,50 €"]
+        }
+      ]
+    },
+    {
+      "id": "pasta",
+      "label": "Pasta & Aufläufe",
+      "items": [
+        {
+          "code": 70,
+          "name": "Napoli",
+          "description": "Nudeln mit Tomatensoße und Basilikum",
+          "prices": ["11,00 €"]
+        },
+        {
+          "code": 71,
+          "name": "Bolognese",
+          "description": "Nudeln mit Hackfleischsoße",
+          "prices": ["11,00 €"]
+        },
+        {
+          "code": 72,
+          "name": "Carbonara",
+          "description": "Nudeln mit Sahnesoße und Hinterschinken",
+          "prices": ["11,00 €"]
+        },
+        {
+          "code": 73,
+          "name": "Lasagne",
+          "description": "Hackfleischsoße, Béchamelsoße und Käse",
+          "prices": ["11,00 €"]
+        },
+        {
+          "code": 74,
+          "name": "Gemüse-Lasagne",
+          "description": "Brokkoli, Paprika, Mais, Champignons, Käse, Béchamelsoße und Tomatensoße",
+          "prices": ["11,00 €"]
+        },
+        {
+          "code": 75,
+          "name": "Spinaci",
+          "description": "Nudeln mit Sahnesoße, Spinat und Gorgonzola",
+          "prices": ["11,00 €"]
+        },
+        {
+          "code": 76,
+          "name": "Lachs-Spinat",
+          "description": "Nudeln mit Lachs und Spinat in Sahnesoße",
+          "prices": ["13,00 €"]
+        },
+        {
+          "code": 77,
+          "name": "Vegetarisch",
+          "description": "Nudeln mit Champignons und Paprika in Sahnesoße",
+          "prices": ["11,00 €"]
+        }
+      ]
+    },
+    {
+      "id": "antipasti",
+      "label": "Antipasti & Vorspeisen",
+      "items": [
+        {
+          "name": "Vorspeisenplatte",
+          "description": "Vorspeisenplatte für 1 Person",
+          "prices": ["14,90 €"]
+        },
+        {
+          "name": "Bruschetta",
+          "description": "Gewürfelte Tomaten und Knoblauch, 3 Stück",
+          "prices": ["5,90 €"]
+        },
+        {
+          "name": "Caprese",
+          "description": "Tomaten, Mozzarella, Basilikum, Olivenöl und Balsamico",
+          "prices": ["10,90 €"]
+        },
+        {
+          "name": "Korb Brot",
+          "description": "Frisches Brot",
+          "prices": ["3,50 €"]
+        }
+      ]
+    },
+    {
+      "id": "salate",
+      "label": "Salate",
+      "items": [
+        {
+          "code": 51,
+          "name": "Gemischter Salat",
+          "description": "Eisbergsalat, Gurken, Tomaten, Karotten",
+          "prices": ["Mittel 7,00 €", "Groß 10,00 €"]
+        },
+        {
+          "code": 53,
+          "name": "Thunfisch Salat",
+          "description": "Eisbergsalat, Gurken, Tomaten, Oliven, Thunfisch, Zwiebeln",
+          "prices": ["Mittel 10,00 €", "Groß 13,00 €"]
+        },
+        {
+          "code": 54,
+          "name": "Italienischer Salat",
+          "description": "Salat, Gurken, Tomaten, Käse, Eier, Schinken, Paprika, Zwiebeln",
+          "prices": ["Mittel 10,00 €", "Groß 13,00 €"]
+        },
+        {
+          "code": 56,
+          "name": "Hähnchenbrust Salat",
+          "description": "Salat, Tomaten, Mais, Hähnchenbrust, Asia-Soße, Croutons",
+          "prices": ["Mittel 10,00 €", "Groß 13,00 €"]
+        }
+      ]
+    },
+    {
+      "id": "kinder",
+      "label": "Für unsere Kleinen",
+      "items": [
+        {
+          "name": "Pizza „Lilo“",
+          "description": "Pizza mit Tomatensoße, Käse und Salami",
+          "prices": ["8,90 €"]
+        },
+        {
+          "name": "Pizza „Stitch“",
+          "description": "Pizza mit Tomatensoße, Käse und Schinken",
+          "prices": ["8,90 €"]
+        },
+        {
+          "name": "Nudeln Peppa Wutz",
+          "description": "Spaghetti mit Tomatensoße",
+          "prices": ["5,50 €"]
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "label": "Desserts",
+      "items": [
+        {
+          "name": "2 Kugeln Vanilleeis mit heißen Himbeeren",
+          "prices": ["6,90 €"]
+        },
+        {
+          "name": "Hausgemachtes Tiramisu",
+          "prices": ["5,90 €"]
+        },
+        {
+          "name": "Hausgemachtes Panna Cotta",
+          "description": "Wahlweise mit Schoko- oder Karamellsoße",
+          "prices": ["5,90 €"]
+        },
+        {
+          "name": "Pizza Apfeltraum",
+          "description": "Mit leckerer Vanillesoße, Apfelstückchen, Zucker und Zimt",
+          "prices": ["8,90 €"]
+        }
+      ]
+    },
+    {
+      "id": "getraenke_alkoholfrei",
+      "label": "Alkoholfreie Getränke",
+      "items": [
+        {
+          "name": "Mineralwasser",
+          "description": "Spritzig, medium oder still",
+          "prices": ["0,2 l 2,20 €", "0,4 l 3,20 €"]
+        },
+        {
+          "name": "Mineralwasser gourmet medium",
+          "prices": ["0,7 l 7,90 €"]
+        },
+        {
+          "name": "Coca Cola / Cola Zero",
+          "prices": ["0,2 l 2,40 €", "0,4 l 3,60 €"]
+        },
+        {
+          "name": "Bad Brambacher Zitrone / Orange / Apfelschorle / Cola Mix",
+          "prices": ["0,2 l 2,40 €", "0,4 l 3,60 €"]
+        },
+        {
+          "name": "Karamalz",
+          "prices": ["0,5 l 4,20 €"]
+        },
+        {
+          "name": "Red Bull Energy Drink / Sugarfree",
+          "prices": ["0,2 l 3,50 €"]
+        },
+        {
+          "name": "Säfte & Saftschorlen",
+          "description": "Traube, Maracuja, Johannisbeere",
+          "prices": ["0,2 l 2,90 €", "0,4 l 4,50 €", "Schorlen 0,4 l 3,90 €"]
+        }
+      ]
+    },
+    {
+      "id": "getraenke_bier_wein",
+      "label": "Biere, Weine & Co.",
+      "items": [
+        {
+          "name": "Biere vom Fass / Flasche",
+          "description": "Kulmbacher Pils, Mönchshof Radler, Mönchshof alkoholfrei, Kellerbier, Kapuziner Hefeweizen",
+          "prices": ["0,5 l 4,20–4,50 €"]
+        },
+        {
+          "name": "Weißweine",
+          "description": "Pinot Grigio, Frascati, Weinschorle",
+          "prices": ["0,25 l 5,90 €", "0,5 l 9,70 €", "Weinschorle 0,4 l 6,90 €"]
+        },
+        {
+          "name": "Rotweine",
+          "description": "Lambrusco, Chianti, Merlot, Misch-Masch",
+          "prices": ["0,25 l 5,90 €", "0,5 l 9,70 €", "Misch-Masch 0,4 l 6,90 €"]
+        },
+        {
+          "name": "Flaschenweine",
+          "description": "Ca`del Frati Lugano weiß, Ca`de Frati Ronchedone Rosso",
+          "prices": ["0,75 l 39,90–49,90 €"]
+        },
+        {
+          "name": "Scavi & Ray Prosecco",
+          "prices": ["0,2 l 5,90 €"]
+        },
+        {
+          "name": "Aperol / Limoncello / Orancello Spritz",
+          "prices": ["0,4 l 8,90 €"]
+        },
+        {
+          "name": "Schnäpse & Liköre",
+          "description": "Ramazotti, Amaretto, Baileys, Limoncello, Grappa, Prosek",
+          "prices": ["2 cl 3,50 €"]
+        }
+      ]
+    },
+    {
+      "id": "heisse_getraenke",
+      "label": "Heiße Getränke",
+      "items": [
+        { "name": "Kaffee", "prices": ["3,50 €"] },
+        { "name": "Cappuccino", "prices": ["3,90 €"] },
+        { "name": "Milchkaffee", "prices": ["3,90 €"] },
+        { "name": "Kleiner italienischer Macchiato", "prices": ["3,50 €"] },
+        { "name": "Latte Macchiatto groß", "prices": ["4,50 €"] },
+        { "name": "Espresso", "prices": ["3,50 €"] },
+        { "name": "Doppelter Espresso", "prices": ["4,90 €"] },
+        { "name": "Affogato (Espresso mit Vanilleeis)", "prices": ["5,50 €"] },
+        { "name": "Heiße Schokolade", "prices": ["3,90 €"] },
+        {
+          "name": "KEO Tee",
+          "description": "Schwarz, Apfel, Ingwer, Pfirsich, Granatapfel, Waldbeere, Vanille, Orange-Maracuja",
+          "prices": ["250 ml 3,00 €"]
+        }
+      ]
+    }
+  ],
+  "featured": [
+    { "categoryId": "pizza_klassisch", "code": 1 },
+    { "categoryId": "pizza_klassisch", "code": 4 },
+    { "categoryId": "pizza_spezial", "code": 11 },
+    { "categoryId": "pizza_spezial", "code": 23 },
+    { "categoryId": "pasta", "code": 71 },
+    { "categoryId": "pasta", "code": 76 },
+    { "categoryId": "salate", "code": 56 },
+    { "categoryId": "desserts" }
+  ]
+}
+
+
+

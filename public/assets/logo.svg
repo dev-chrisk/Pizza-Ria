@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 40">
+  <defs>
+    <linearGradient id="lg" x1="0" x2="1">
+      <stop offset="0" stop-color="#f59e0b"/>
+      <stop offset="1" stop-color="#e11d48"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="40" height="40" rx="8" fill="url(#lg)"/>
+  <circle cx="14" cy="12" r="3" fill="#111827"/>
+  <circle cx="22" cy="8" r="3" fill="#111827"/>
+  <circle cx="28" cy="16" r="3" fill="#111827"/>
+  <text x="52" y="28" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#111827">Pizza Ria</text>
+</svg>
+
+
+

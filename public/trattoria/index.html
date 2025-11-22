@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pizza Ria – Variante 12 (Trattoria Holz & Kerzen)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+    <link rel="stylesheet" href="../styles/trattoria.css" />
+    <link rel="icon" href="../../images/logo.jpg" />
+    <script src="../assets/scripts/menu.js" defer></script>
+  </head>
+  <body class="page-v12">
+    <header class="site-header" style="position: relative;">
+      <div class="container nav-wrap">
+        <a class="brand" href="../../index.html" aria-label="Pizza Ria Startseite">
+          <img src="../../images/logo.jpg" alt="Pizza Ria Logo" class="brand-logo" />
+          <span class="brand-text">Pizza Ria</span>
+        </a>
+        <button class="nav-toggle" aria-label="Navigation umschalten" aria-expanded="false">
+          <span class="nav-bar"></span>
+          <span class="nav-bar"></span>
+          <span class="nav-bar"></span>
+        </button>
+      </div>
+      <div style="position: absolute; right: 0; top: 50%; transform: translateY(-50%); padding-right: clamp(16px, 3vw, 28px); display: flex; align-items: center; gap: 6px;">
+        <span style="text-transform: uppercase; letter-spacing: 0.14em; font-size: 10px; opacity: 0.7; margin-right: 4px;">Styles</span>
+        <a href="../../index.html" style="padding: 4px 8px; border-radius: 999px; border: 1px solid transparent; opacity: 0.8; font-size: 12px;">Home</a>
+        <a href="../pastel/index.html" style="padding: 4px 8px; border-radius: 999px; border: 1px solid transparent; opacity: 0.8; font-size: 12px;">Pastell</a>
+        <a href="../editorial/index.html" style="padding: 4px 8px; border-radius: 999px; border: 1px solid transparent; opacity: 0.8; font-size: 12px;">Editorial</a>
+        <a href="./index.html" style="padding: 4px 8px; border-radius: 999px; background: rgba(255,216,77,0.96); border: 1px solid #111; color: #111; opacity: 1; font-size: 12px;">Trattoria</a>
+        <a href="../bistro/index.html" style="padding: 4px 8px; border-radius: 999px; border: 1px solid transparent; opacity: 0.8; font-size: 12px;">Bistro</a>
+      </div>
+    </header>
+
+    <section class="hero hero--v12">
+      <div class="hero-v12-bg"></div>
+      <div class="hero-v12-overlay"></div>
+      <div class="container hero-v12-content">
+        <div class="hero-v12-text">
+          <h1>Trattoria-Abende bei Kerzenschein</h1>
+          <p>
+            Warme Holztöne, flackerndes Licht und der Duft aus dem Steinofen – unsere gemütlichste Variante der
+            Pizza&nbsp;Ria.
+          </p>
+          <a href="#menu" class="btn hero-v12-btn">Zur Abendkarte</a>
+        </div>
+        <div class="hero-v12-board">
+          <div class="hero-v12-board-inner">
+            <h2>Heutige Empfehlungen</h2>
+            <ul>
+              <li><strong>Pizza Rustica</strong> – Salsiccia, Rosmarin, rote Zwiebeln</li>
+              <li><strong>Antipasti Misto</strong> – gegrilltes Gemüse, Oliven, Burrata</li>
+              <li><strong>Tartufo Bianco</strong> – weiße Pizza mit Trüffelöl</li>
+            </ul>
+            <p class="hero-v12-note">Alle Empfehlungen inkl. kleinem Beilagensalat.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main id="menu" class="menu-page-v12">
+      <section class="container menu-v12-section">
+        <header class="menu-v12-header">
+          <h2>Steinofen-Pizzen</h2>
+          <p>Serviert auf Holzbrett – knusprig gebacken bei 380 °C.</p>
+        </header>
+        <div class="menu-v12-grid">
+          <article class="menu-v12-item">
+            <div class="menu-v12-item-head">
+              <h3>Margherita Rustica</h3>
+              <span class="menu-v12-price">Ø 30 cm 9,50 €</span>
+            </div>
+            <p>Tomatensugo, Fior di Latte, Basilikum, extra natives Olivenöl.</p>
+            <div class="menu-v12-tags">
+              <span class="chip chip--veggie">vegetarisch</span>
+              <span class="chip chip--wood">Steinofen</span>
+            </div>
+          </article>
+
+          <article class="menu-v12-item">
+            <div class="menu-v12-item-head">
+              <h3>Salame Piccante</h3>
+              <span class="menu-v12-price">Ø 30 cm 11,20 €</span>
+            </div>
+            <p>Tomatensugo, Mozzarella, pikante Salami, Peperoncini.</p>
+            <div class="menu-v12-tags">
+              <span class="chip chip--spicy">scharf</span>
+            </div>
+          </article>
+
+          <article class="menu-v12-item">
+            <div class="menu-v12-item-head">
+              <h3>Prosciutto e Funghi</h3>
+              <span class="menu-v12-price">Ø 30 cm 11,90 €</span>
+            </div>
+            <p>Tomatensugo, Mozzarella, Kochschinken, frische Champignons.</p>
+          </article>
+
+          <article class="menu-v12-item">
+            <div class="menu-v12-item-head">
+              <h3>Verdure al Forno</h3>
+              <span class="menu-v12-price">Ø 30 cm 12,20 €</span>
+            </div>
+            <p>Gegrillte Zucchini, Paprika, Aubergine, rote Zwiebeln und Rucola.</p>
+            <div class="menu-v12-tags">
+              <span class="chip chip--veggie">vegetarisch</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="container menu-v12-section menu-v12-section--two-cols">
+        <div>
+          <header class="menu-v12-header">
+            <h2>Antipasti &amp; Salate</h2>
+            <p>Ideal zum Teilen in gemütlicher Runde.</p>
+          </header>
+          <ul class="menu-v12-list">
+            <li>
+              <div>
+                <span class="menu-v12-name">Bruschetta Classica</span>
+                <span class="menu-v12-desc">Geröstetes Brot, Tomaten, Knoblauch, Basilikum</span>
+              </div>
+              <span class="menu-v12-price">6,50 €</span>
+            </li>
+            <li>
+              <div>
+                <span class="menu-v12-name">Antipasti Misto</span>
+                <span class="menu-v12-desc">Gegrilltes Gemüse, Oliven, eingelegte Spezialitäten</span>
+              </div>
+              <span class="menu-v12-price">11,90 €</span>
+            </li>
+            <li>
+              <div>
+                <span class="menu-v12-name">Insalata della Casa</span>
+                <span class="menu-v12-desc">Blattsalate, Kirschtomaten, Parmesan, Hausdressing</span>
+              </div>
+              <span class="menu-v12-price">8,90 €</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="menu-v12-sidecard">
+          <h3>Weinempfehlung</h3>
+          <p>Zu unseren rustikalen Pizzen empfehlen wir:</p>
+          <ul>
+            <li>Chianti DOCG Hauswein 0,2 l – 4,90 €</li>
+            <li>Primitivo Puglia 0,2 l – 5,20 €</li>
+          </ul>
+          <p class="menu-v12-note">Alle Weine auch als Flasche erhältlich.</p>
+        </div>
+      </section>
+
+      <section class="container menu-v12-section" aria-label="Beliebte Gerichte – Kartenansicht (JSON)">
+        <header class="menu-v12-header">
+          <h2>Beliebte Gerichte</h2>
+          <p>Auswahl aus unserer strukturierten Speisekarte.</p>
+        </header>
+        <div class="dynamic-menu-grid" data-menu="standard" data-items="6"></div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-block">
+          <h4 class="footer-title">Adresse</h4>
+          <p>Pizza Ria<br />Hauptstraße 123<br />12345 Musterstadt</p>
+        </div>
+        <div class="footer-block">
+          <h4 class="footer-title">Öffnungszeiten</h4>
+          <ul class="hours">
+            <li>Mo–Do: 11:30 – 21:30</li>
+            <li>Fr–Sa: 11:30 – 22:30</li>
+            <li>So: 12:00 – 21:00</li>
+          </ul>
+        </div>
+        <div class="footer-block">
+          <h4 class="footer-title">Kontakt</h4>
+          <p>Tel: 01234 / 567890<br />E-Mail: hallo@pizzaria.example</p>
+        </div>
+      </div>
+      <div class="container footer-meta">
+        <p>© <span id="year"></span> Pizza Ria. Alle Rechte vorbehalten.</p>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        var yearSpans = document.querySelectorAll('#year');
+        var year = new Date().getFullYear();
+        yearSpans.forEach(function (s) {
+          s.textContent = String(year);
+        });
+      })();
+
+      (function () {
+        var toggle = document.querySelector('.nav-toggle');
+        var links = document.querySelector('.nav-links');
+        if (!toggle || !links) return;
+        var isOpen = false;
+        function setExpanded(expanded) {
+          toggle.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+          links.classList.toggle('open', expanded);
+        }
+        toggle.addEventListener('click', function () {
+          isOpen = !isOpen;
+          setExpanded(isOpen);
+        });
+        links.addEventListener('click', function (e) {
+          var target = e.target;
+          if (target && target.tagName === 'A' && isOpen) {
+            isOpen = false;
+            setExpanded(false);
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>
+
+
+
