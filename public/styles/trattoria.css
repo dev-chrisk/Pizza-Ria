@@ -18,6 +18,17 @@
   justify-content: space-between !important;
 }
 
+.page-v12 .style-switcher {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-right: clamp(16px, 3vw, 28px);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
 .page-v12 .site-header .nav-wrap .brand {
   flex-shrink: 0 !important;
   order: 1 !important;
@@ -372,6 +383,14 @@
 
   .menu-v12-section--two-cols {
     grid-template-columns: minmax(0, 1fr);
+  }
+
+  .page-v12 .style-switcher {
+    position: static;
+    transform: none;
+    padding: 8px clamp(16px, 3vw, 28px);
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
 
