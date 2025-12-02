@@ -1,19 +1,19 @@
 // Zentrale Menü-Logik für alle Varianten
-// Nutzt die Bilder aus dem Ordner /images der Projektwurzel
+// Nutzt die Bilder aus dem Ordner /assets/images relativ zum public-Root
 
 const MENU_IMAGES = [
-  // Pfade relativ zu public/v1…v10, zurück zur Projektwurzel und dann in /images
-  '../../images/Pizza 1.jpg',
-  '../../images/Pizza 2.jpg',
-  '../../images/Pizza 3.jpg',
-  '../../images/Pizza 4.jpg',
-  '../../images/Speise 1.jpg',
-  '../../images/Speise 2.jpg',
-  '../../images/Speise 4.jpg',
-  '../../images/Speise 5.jpg',
-  '../../images/Speise 6.jpg',
-  '../../images/logo.jpg',
-  // Weitere Bilder hier ergänzen, z. B. '../../images/andere-pizza.jpg'
+  // Pfade relativ zum Dokument-Root (typisch: /assets/images/…)
+  '/assets/images/Pizza 1.jpg',
+  '/assets/images/Pizza 2.jpg',
+  '/assets/images/Pizza 3.jpg',
+  '/assets/images/Pizza 4.jpg',
+  '/assets/images/Speise 1.jpg',
+  '/assets/images/Speise 2.jpg',
+  '/assets/images/Speise 4.jpg',
+  '/assets/images/Speise 5.jpg',
+  '/assets/images/Speise 6.jpg',
+  '/assets/images/logo.jpg',
+  // Weitere Bilder hier ergänzen, z. B. '/assets/images/andere-pizza.jpg'
 ];
 
 // Fallback-Items wurden entfernt – es soll ausschließlich menu.json verwendet werden
